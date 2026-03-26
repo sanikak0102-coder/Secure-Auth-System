@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="main-container">
+
+  <!-- Left Panel -->
+  <div class="left-panel">
+    <h1>SecureAuth 🔐</h1>
+    <p>Smart. Secure. Stylish.</p>
+  </div>
+
+  <!-- Login Box -->
+  <div class="login-box">
+    <h2>Welcome Back 👋</h2>
+
+    <form id="loginForm">
+
+  <div class="input-group">
+      <input type="email" id="email" required placeholder=" ">
+      <label>Email</label>
+  </div>
+
+<div class="input-group password-group">
+  <input type="password" id="password" required placeholder=" ">
+  <label>Password</label>
+  <span class="toggle-password">👁</span>
+</div>
+
+  <div class="g-recaptcha" data-sitekey="6LevHJgsAAAAAHBntLp7F9HvWiiw4R8wieijYwTf
+  "></div>
+
+
+      <button type="submit">Login</button>
+
+      <p class="bottom-text">New here? <a href="register.html">Create Account</a></p>
+    </form>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>

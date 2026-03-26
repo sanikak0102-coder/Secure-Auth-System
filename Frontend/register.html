@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-container">
+
+  <!-- Left Panel -->
+  <div class="left-panel">
+    <h1>SecureAuth 🔐</h1>
+    <p>Create your account</p>
+  </div>
+
+  <!-- Register Box -->
+  <div class="login-box">
+    <h2>Create Account 🚀</h2>
+
+    <form id="registerForm">
+
+      <div class="input-group">
+        <input type="text" id="username" required placeholder="Enter Username">
+        <label>Username</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email" id="email" required placeholder="Enter Email">
+        <label>Email</label>
+      </div>
+
+      <div class="input-group password-group">
+        <input type="password" id="password" required placeholder="Enter Password">
+        <label>Password</label>
+        <span class="toggle-password">👁</span>
+      </div>
+
+      <!-- Role Dropdown -->
+      <select id="role" required>
+        <option value="user" selected>User</option>
+        <option value="admin">Admin</option>
+      </select>
+
+      <button type="submit">Register</button>
+
+      <p class="bottom-text">
+        Already have an account? <a href="login.html">Login</a>
+      </p>
+
+    </form>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
